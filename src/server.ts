@@ -1,7 +1,7 @@
 import express from 'express'
 import {createConnection} from "typeorm";
-import {Article} from "./entities/article";
-import {User} from "./entities/user";
+import {Article} from "./entities/Article";
+import {User} from "./entities/User";
 import {usersRoute} from "./routes/users";
 import {userRoute} from "./routes/user";
 
